@@ -1,0 +1,50 @@
+.wrapper.row0{
+    padding-top:23px;
+    background-color:rgb(250, 248, 245);
+
+}
+
+
+.con {
+    font-weight: normal;
+    padding-left: 7px;
+    color:black;
+}
+
+.spatiu {
+    margin-right: 15px; 
+    color: red;
+}
+.spatiu0 {
+    margin-right: 15px; 
+    color:black;
+}
+
+#quick_menu {
+    float: right;
+    margin-top: -25px;
+    
+}
+
+#quick_menu ul li {
+    display: inline;
+    
+}
+
+.wrapper.row1 {
+    background-color: #FF3F4A;
+    padding-bottom: 25px;
+}
+
+.menu_row {
+    margin-top: 35px;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+
+
+
+
+
