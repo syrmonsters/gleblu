@@ -1,3 +1,7 @@
+ul{
+    list-style-type: none;
+}
+
 .wrapper.row0{
     padding-top:23px;
     background-color:rgb(250, 248, 245);
@@ -7,7 +11,7 @@
 
 .con {
     font-weight: normal;
-    padding-left: 7px;
+    
     color:black;
 }
 
@@ -36,15 +40,44 @@
     padding-bottom: 25px;
 }
 
-.menu_row {
+.logo {
     margin-top: 35px;
     text-transform: uppercase;
     color:white;
 }
 
 
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
 
 
+}
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+.dropdown-menu1{
+    display: none;
+}
+
+.dropdown-menu1:hover {
+    display: block;
+}
+
+ 
+ #mainav {
+     float: right;
+     margin-top: -25px;
+ }
+
+ #mainav  ul  li{
+    display: inline-block;
+}
 
 
