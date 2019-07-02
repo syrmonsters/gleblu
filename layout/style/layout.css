@@ -1,0 +1,160 @@
+ul{
+    list-style-type: none;
+}
+
+.wrapper.row0{
+    padding-top:23px;
+    background-color:rgb(250, 248, 245);
+
+}
+
+
+.con {
+    font-weight: normal;
+    
+    color:black;
+}
+
+#quick_menu i{
+    color: red;
+    margin-right: 15px;
+}
+.spatiu0 {
+    margin-right: 15px; 
+    color:black;
+}
+
+#quick_menu {
+    float: right;
+    margin-top: -25px;
+    
+}
+
+#quick_menu ul li {
+    display: inline;
+    
+}
+
+.wrapper.row1 {
+    background-color: #FF3F4A;
+    padding-bottom: 25px;
+}
+
+.logo {
+    margin-top: 35px;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+.title_r{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #FFFF;
+}
+
+.title_r:hover {
+    color: white;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+.dropdown-menu1{
+    display: none;
+}
+
+.dropdown-menu1:hover {
+    display: block;
+}
+
+ 
+ #mainav {
+     float: right;
+     margin-top: -25px;
+     text-transform: uppercase;
+     color: white;
+ }
+
+ #mainav  ul  li{
+    display: inline-block;
+}
+
+.spatiu1 {
+    margin-right: 15px;
+    color:WHITE;
+}
+
+.heading{
+    margin-bottom:  20px ;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#pageintro {
+    padding: 200px 0 300px;
+}
+
+#pageintro article, #pageintro article p{
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;   
+    text-align: center;
+    color:white;
+    
+
+}
+#pageintro .heading{
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+
+#pageintro article p{
+    max-width: 65%;
+    line-height: 2rem;
+}
+
+#pageintro footer{
+    margin-top: 50px;
+}
+.btn, .btn.inverse:hover{
+    color:#FFFF;
+    background-color: #FF3F4A;
+    border-color: #FF3F4A;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color:#FFF;
+}
+
+.inverse{
+    color: #FFFF;
+    background-color: transparent;
+}
+
+.btn{
+   
+    display: inline-block;
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-right: 20px;
+    
+}
+
+.nospace{
+    list-style: none ;
+}
+
+.btn_list{
+    margin-top: 23px;
+}
+.btn_list ul li {
+    display: inline;
+}
+
