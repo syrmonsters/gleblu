@@ -37,11 +37,11 @@ ul{
 
 .wrapper.row1 {
     background-color: #FF3F4A;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .logo {
-    margin-top: 35px;
+    margin-top: 20px;
     text-transform: uppercase;
     color:white;
 }
@@ -75,22 +75,20 @@ ul{
  
  #mainav {
      float: right;
-     margin-top: -25px;
+     margin-top: -35px;
      text-transform: uppercase;
      color: white;
  }
 
  #mainav  ul  li{
     display: inline-block;
+    margin-right: 40px;
+
 }
 
-.spatiu1 {
-    margin-right: 15px;
-    color:WHITE;
-}
 
 .heading{
-    margin-bottom:  20px ;
+    margin-bottom:  15px ;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -144,6 +142,7 @@ ul{
     text-transform: uppercase;
     border-radius: 0;
     margin-right: 20px;
+    transition: .3s ease-in-out;
     
 }
 
