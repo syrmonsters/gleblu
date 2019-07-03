@@ -1,3 +1,4 @@
+
 ul{
     list-style-type: none;
 }
@@ -8,20 +9,25 @@ ul{
 
 }
 
-
 .con {
     font-weight: normal;
-    
     color:black;
 }
 
-.spatiu {
-    margin-right: 15px; 
-    color: red;
+.contact ul li a:hover{
+    text-decoration: none;
+    color: black;
 }
-.spatiu0 {
-    margin-right: 15px; 
-    color:black;
+
+#quick_menu i{
+    color: red;
+    margin-right: 15px;
+}
+
+.contact ul li {
+    margin-right: 35px;
+    margin-left: -30px;
+    color: black;
 }
 
 #quick_menu {
@@ -37,27 +43,29 @@ ul{
 
 .wrapper.row1 {
     background-color: #FF3F4A;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .logo {
-    margin-top: 35px;
+    margin-top: 20px;
     text-transform: uppercase;
     color:white;
 }
 
 
-.title {
+.title_r{
     margin: 0;
     padding: 0;
     font-size: 40px;
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", Times, serif;
-    
-
-
+    color: #FFFF;
 }
 
+.title_r:hover {
+    color: white;
+    text-decoration: none;
+}
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; 
@@ -67,17 +75,191 @@ ul{
 }
 
 .dropdown-menu1:hover {
-    display: block;
+    display: inline-block;
 }
 
  
  #mainav {
      float: right;
-     margin-top: -25px;
+     margin-top: -35px;
+     text-transform: uppercase;
+     color: white;
  }
 
- #mainav  ul  li{
+ #mainav  ul  li {
     display: inline-block;
+    margin-right: 40px;
+    background-color: red;
+    border-color: transparent;
+    
+}
+
+#mainav ul li a{
+    color:white;
+
 }
 
 
+#mainav ul li a:hover{
+    text-decoration: none;
+    color:white;  
+    background-color: red; 
+}
+
+
+
+
+.heading{
+    margin-bottom:  15px ;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#pageintro {
+    padding: 200px 0 300px;
+}
+
+#pageintro article, #pageintro article p{
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;   
+    text-align: center;
+    color:white;
+    
+
+}
+#pageintro .heading{
+    margin-bottom: 20px;
+    font-size: 5rem;
+}
+
+#pageintro article p{
+    max-width: 65%;
+    line-height: 2rem;
+}
+
+#pageintro footer{
+    margin-top: 50px;
+}
+.btn, .btn.inverse:hover{
+    color:#FFFF;
+    background-color: #FF3F4A;
+    border-color: #FF3F4A;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color:#FFF;
+}
+
+.inverse{
+    color: #FFFF;
+    background-color: transparent;
+}
+
+.btn{
+   
+    display: inline-block;
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-right: 20px;
+    transition: .3s ease-in-out;
+    
+}
+
+.nospace{
+    list-style: none ;
+}
+
+.btn_list{
+    margin-top: 23px;
+}
+.btn_list ul li {
+    display: inline;
+}
+
+.row2 {
+    background-color: #F4F4F4;
+    color:#474747;
+   
+}
+
+
+.wrapper{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    text-align: left;
+    word-wrap: break-word;
+    
+}
+
+#introblocks article{
+    color:#474747;
+    background-color: #FFF;
+    box-shadow: 0px 0px 15px rgba(0,0,0, .1);
+    display:inline-block;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+    
+#introblocks ul{
+    display: inline-block ;
+    margin:-100px 0 0;
+    text-align: center;
+}
+#introblocks ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.heading_card{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+
+#introblocks article i{
+    border-color: rgba(0,0,0,.1);
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    line-height: 43px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+#introblocks article i{
+    color: red;
+    border-color: rgb(173, 169, 169, .3);
+}
+
+#introblocks article i{
+    
+}
+
+#introblocks article i:hover{
+    color:white;
+    border-color: #FF3F4A;
+    background-color: #FF3F4A;
+    transition: .3s ease-in-out;
+    
+}
+
+.first:hover{
+    color:white;
+    background-color: blue;
+}
