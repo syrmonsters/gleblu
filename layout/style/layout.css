@@ -1,3 +1,4 @@
+
 ul{
     list-style-type: none;
 }
@@ -8,20 +9,25 @@ ul{
 
 }
 
-
 .con {
     font-weight: normal;
-    
     color:black;
+}
+
+.contact ul li a:hover{
+    text-decoration: none;
+    color: black;
 }
 
 #quick_menu i{
     color: red;
     margin-right: 15px;
 }
-.spatiu0 {
-    margin-right: 15px; 
-    color:black;
+
+.contact ul li {
+    margin-right: 35px;
+    margin-left: -30px;
+    color: black;
 }
 
 #quick_menu {
@@ -69,7 +75,7 @@ ul{
 }
 
 .dropdown-menu1:hover {
-    display: block;
+    display: inline-block;
 }
 
  
@@ -80,17 +86,34 @@ ul{
      color: white;
  }
 
- #mainav  ul  li{
+ #mainav  ul  li {
     display: inline-block;
     margin-right: 40px;
+    background-color: red;
+    border-color: transparent;
+    
+}
+
+#mainav ul li a{
+    color:white;
 
 }
+
+
+#mainav ul li a:hover{
+    text-decoration: none;
+    color:white;  
+    background-color: red; 
+}
+
+
 
 
 .heading{
     margin-bottom:  15px ;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
 
 }
 #pageintro {
@@ -156,4 +179,149 @@ ul{
 .btn_list ul li {
     display: inline;
 }
+
+.row2 {
+    background-color: #F4F4F4;
+    color:#474747;
+   
+}
+
+
+.wrapper{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    text-align: left;
+    word-wrap: break-word;
+    
+}
+
+#introblocks article{
+    color:#474747;
+    background-color: #FFF;
+    box-shadow: 0px 0px 15px rgba(0,0,0, .1);
+    display:inline-block;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+    
+#introblocks ul{
+    display: inline-block ;
+    margin:-100px 0 0;
+    text-align: center;
+}
+#introblocks ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.heading_card{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+
+#introblocks article i{
+    border-color: rgba(0,0,0,.1);
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    line-height: 43px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+#introblocks article i{
+    color: red;
+    border-color: rgb(173, 169, 169, .3);
+}
+
+#introblocks article p:hover ,.heading_card:hover{
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.cards:hover{
+    
+}
+
+#introblocks article:hover{
+    background-color: black;
+    transition: .3s ease-in-out;
+}
+
+#introblocks .active i{
+    color:white;
+    background-color: #FF3F4A;
+}
+
+#introblocks .active {
+    background-color: black;
+}
+
+#introblocks .active .heading_card{
+    color:white;
+}
+
+#introblocks .active p{
+    color:white;
+}
+
+
+
+#introblocks article:hover i:hover{
+    color:white;
+    border-color: #FF3F4A;
+    background-color: #FF3F4A;
+    transition: .3s ease-in-out;
+    
+}
+
+.first:hover{
+    color:white;
+    background-color: blue;
+}
+
+.btmspace-80 {
+    margin-bottom: 80px;
+}
+
+.center {
+    text-align:center;
+    padding: 80px 0;
+}
+
+.font-x2 {
+    font-size:  3.2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+
+.bottom_list i:hover {
+    color:#FF3F4A;
+    transition: .3s ease-in-out;   
+    transition-delay: 1s;
+}
+
+.overview article >div {
+    display: inline-block;
+    position: relative;
+    min-height: 36px;
+    margin: 0 0 20px 0;
+    padding: 8px 0 0 55px;
+}
+
 
