@@ -295,12 +295,12 @@ ul{
 }
 
 .btmspace-80 {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .center {
     text-align:center;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .font-x2 {
@@ -309,14 +309,22 @@ ul{
 }
 
 
-
-.bottom_list i:hover {
-    color:#FF3F4A;
-    transition: .3s ease-in-out;   
-    transition-delay: 1s;
+.bottom_list h4 i {
+   color: #474747;
+   margin-right: 7px;
 }
 
-.overview article >div {
+.bottom_list p{
+    font-size: 1.6 rem;
+}
+
+.bottom_list h4 i:hover {
+    color:#FF3F4A;
+    transition: .3s ease-in-out;   
+    transition-delay: .5s;
+}
+
+.overview article >div  {
     display: inline-block;
     position: relative;
     min-height: 36px;
@@ -324,4 +332,6 @@ ul{
     padding: 8px 0 0 55px;
 }
 
-
+.clear {
+    display: inline-block;
+}
