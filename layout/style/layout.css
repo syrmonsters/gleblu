@@ -43,23 +43,21 @@ ul{
 
 .wrapper.row1 {
     background-color: #FF3F4A;
-    padding-bottom: 15px;
+    
 }
 
-.logo {
-    margin-top: 20px;
-    text-transform: uppercase;
-    color:white;
+.container a{
+    margin-bottom: -5px;
+    padding-top: 10px;
+
 }
-
-
 .title_r{
-    margin: 0;
     padding: 0;
     font-size: 40px;
     text-transform: uppercase;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #FFFF;
+   
 }
 
 .title_r:hover {
@@ -81,21 +79,26 @@ ul{
  
  #mainav {
      float: right;
-     margin-top: -35px;
+    
      text-transform: uppercase;
      color: white;
  }
 
  #mainav  ul  li {
     display: inline-block;
-    margin-right: 40px;
-    background-color: red;
     border-color: transparent;
-    
 }
 
 #mainav ul li a{
-    color:white;
+    background-color: #A60009;
+}
+
+
+#mainav ul li a{
+    color:inherit;
+    border-color: transparent;
+    display: block;
+    padding: 40px 20px;
 
 }
 
@@ -253,9 +256,7 @@ ul{
     transition: .3s ease-in-out;
 }
 
-.cards:hover{
-    
-}
+
 
 #introblocks article:hover{
     background-color: black;
@@ -295,12 +296,12 @@ ul{
 }
 
 .btmspace-80 {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .center {
     text-align:center;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .font-x2 {
@@ -312,10 +313,17 @@ ul{
 .bottom_list h4 i {
    color: #474747;
    margin-right: 7px;
+  
+}
+
+.bottom_list h4{
+    font-size: 2.3rem;
+    margin-bottom: 25px;
+    margin-top: 35px;
 }
 
 .bottom_list p{
-    font-size: 1.6 rem;
+    font-size:1.6rem; 
 }
 
 .bottom_list h4 i:hover {
@@ -335,3 +343,47 @@ ul{
 .clear {
     display: inline-block;
 }
+
+
+.bottom_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.bottom_center a:hover {
+    color:black;
+    border-color:black;
+}
+
+.underline {
+    text-decoration: none; 
+    position: relative; 
+  }  
+
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    bottom: -8px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 15%;
+    background: #A60009;
+    border-radius: 3px;
+    
+}
+
+.underline:hover{
+    text-decoration: none;
+}
+
+
+a.image {
+    content:url(http://placehold.it/275x180);
+}
+
